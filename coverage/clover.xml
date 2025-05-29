@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1748513060765" clover="3.2.0">
-  <project timestamp="1748513060765" name="All files">
-    <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1" elements="21" coveredelements="20" complexity="0" loc="17" ncloc="17" packages="3" files="3" classes="3"/>
+<coverage generated="1748515181057" clover="3.2.0">
+  <project timestamp="1748515181057" name="All files">
+    <metrics statements="20" coveredstatements="20" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2" elements="25" coveredelements="24" complexity="0" loc="20" ncloc="20" packages="3" files="3" classes="3"/>
     <package name="src">
       <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="0"/>
       <file name="app.ts" path="C:\Users\lenovo\Downloads\FirstTask\src\app.ts">
@@ -19,22 +19,25 @@
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="api.controllers.ts" path="C:\Users\lenovo\Downloads\FirstTask\src\controllers\api.controllers.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.routes">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="api.routes.ts" path="C:\Users\lenovo\Downloads\FirstTask\src\routes\api.routes.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
       </file>
     </package>
   </project>
