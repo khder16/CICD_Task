@@ -1,9 +1,9 @@
-import express, { Request, Response } from 'express';
+import express from 'express';
 import cors from 'cors';
 import apiRoutes from './routes/api.routes';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+
 
 // Middleware
 app.use(cors());
