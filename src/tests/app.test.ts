@@ -1,6 +1,7 @@
 import request from 'supertest';
 import app from '../app';
 
+// Test the Endpoint 
 describe('API Integration Tests', () => {
     it('GET /api/status should return API is working and API status code', async () => {
         const response = await request(app).get('/api/status');
