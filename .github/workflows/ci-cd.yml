@@ -49,7 +49,9 @@ jobs:
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           working-directory: ./
-          vercel-args: '--prod'
+          vercel-args: '--prod --yes'
+          github-comment: true
+          github-deployment: false
 
   deploy-preview:
     needs: test
@@ -67,3 +69,4 @@ jobs:
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           working-directory: ./
+          vercel-args: '--yes'
